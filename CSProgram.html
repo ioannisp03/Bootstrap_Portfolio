@@ -1,0 +1,218 @@
+<!-- Ioannis Panaritis portfolio3-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ioannis Panaritis: Program</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-ico" href="pics/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="PortfolioStyleSheet.css">
+    <meta name="keywords" content="Personal website,program,cegep,studies,school,Computer Science">
+    <meta name="Description" content="Page that shows what school program and the reasons I'm in it">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Ioannis Panaritis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <!--ms=auto means magrin start auto-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myPassions.html">Passions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CSProgram.html">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="designLayout.html">Layout & Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myWebsites.html">My Websites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="websitesOnline.html">Websites Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-success btn-md " data-bs-toggle="modal"
+                            data-bs-target="#contactMe">Contact me</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- video section -->
+        <section class="bg-dark text-light text-center text-sm-start">
+            <h1 class="text-warning py-5 text-center">Program Selection</h1>
+            <div class="container">
+                <div class="ratio ratio-16x9">
+                    <iframe class="pb-5" src="https://www.youtube.com/embed/uY-II-pWr8A" title="YouTube video"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- email champlain section -->
+        <section class="bg-primary text-light p-4 ">
+                <div class="row text-center">
+                    <h3>Click Here If You Want To Email The School </h3>
+                    <a href="mailto:admissions@crcmail.net" target="_blank"
+                        class="btn btn-lg btn-rounded btn-dark w-25 mx-auto">Email</a>
+                </div>
+            
+        </section>
+
+        <!-- table & img link section -->
+        <section class="d-md-flex align-items-center">
+            <table class="table table-striped table-hover m-md-5">
+                <tbody>
+                    <tr>
+                        <th id="ProgramOffers">What my program offers</th>
+                        <td headers="ProgramOffers">My program offers a various of IT related skills such as
+                            programming, web development,
+                            networking, and much more!</td>
+                    </tr>
+                    <tr>
+                        <th id="reasons">The reasons I joined</th>
+                        <td headers="reasons">I enjoy the problem solving aspect of programming, and the limitless
+                            job opportunities
+                            this
+                            field offers.</td>
+                    </tr>
+                    <tr>
+                        <th id="dreamjob">My dream job</th>
+                        <td headers="dreamjob">I like many things related to computers. Primarily I would like to
+                            become a software
+                            developer and develop software for others.</td>
+                    </tr>
+                    <tr>
+                        <th id="favoriteclasses">My favorite classes so far</th>
+                        <td headers="favoriteclasses">I cannot say that I dislike any of my classes, however I do
+                            enjoy my Java and web
+                            development classes the most.</td>
+                    </tr>
+                    <tr>
+                        <th id="expectations">My expectations for the future</th>
+                        <td headers="expectations">I would expect to either be working in a company, or simply be a
+                            freelance developer.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="text-center p-5 border rounded m-3 ">
+                <p><em>Click on the champlain logo below for more information on the program</em></p>
+                <a href="https://www.champlainonline.com/champlainweb/future-students/computer-science/"
+                    target="_blank">
+                    <img class="img-fluid" src="pics/logo_champlain_college.gif" alt="champlain logo">
+                </a>
+            </div> 
+        </section>
+       
+        <!-- Modal -->
+        <section>
+            <div class="modal fade" id="contactMe" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Fill out your information!</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="lead">Fill out this form and I will get back to you</p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="full-name" class="col-form-label">
+                                        Full Name:
+                                    </label>
+                                    <input type="text" class="form-control" id="full-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">
+                                        Email:
+                                    </label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="col-form-label">
+                                        Phone:
+                                    </label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="communication" class="form-label">How would you like to speak with
+                                        me? (select one)</label>
+                                    <input class="form-control" list="options" name="communication" id="communication">
+                                    <datalist id="options">
+                                        <option value="Online">
+                                        <option value="In-Person">
+                                    </datalist>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="zoom" name="zoom" value="zoom">
+                                    <label class="form-check-label">Zoom</label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="teams" name="teams"
+                                        value="teams">
+                                    <label class="form-check-label">Teams</label>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="startDate">Choose a date:</label>
+                                    <input type="date" class="form-control" id="startDate">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="comment">Specify your needs:</label>
+                                    <textarea class="form-control" rows="2" id="comment" name="text"></textarea>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio"
+                                        value="call">
+                                    <label class="form-check-label" for="radio1">Call me:</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                        value="email">
+                                    <label class="form-check-label" for="radio1">Email me</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- footer -->
+    <footer class="bg-dark p-5 text-center text-white d-none d-sm-block">
+        <div class="container lead ">
+            Ioannis Panaritis
+            <a class="text-decoration-none text-white p-5" href="mailto:i.panar@yahoo.com">i.panar@yahoo.com</a>
+            <a class="text-decoration-none text-white" href="tel:438-763-6898">438-763-6898</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+        </script>
+
+</html>
+<!--  links:
+    https://www.champlainsaintlambert.ca/career-programs/computer-science-technology/
+Champlain Logo : https://www.google.com/search?q=champlain+college+logo&sxsrf=ALiCzsbWol0yXoJMT4HAlgwlWcnWn0YhMw:1664831629139&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjW9vWO_cT6AhV7lYkEHeg4BpUQ_AUoAXoECAEQAw&biw=1233&bih=649&dpr=1.5#imgrc=-AWNyWZZh-CVdM 
+-->

@@ -1,0 +1,24 @@
+/* added hovering effects on cards */
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Images inside the carousel were not equal so I set their value to what worked well */
+#carousel .carousel-item img{
+    width: 100%;
+    height:85vh;
+}
+
+/* added hover effects (etc) when clicking on the website links on the online webpages page */
+.linkGreen:hover{
+    background-color: #00D084;
+    
+}
+.text-decoration-none:visited {
+    color: black;
+}
+
+
+
+

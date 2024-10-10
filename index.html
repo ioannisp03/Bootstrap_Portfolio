@@ -1,0 +1,240 @@
+<!-- Ioannis Panaritis Sheet 10, October 30th, 2022 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Ioannis Panaritis: About me</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/x-ico" href="pics/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="PortfolioStyleSheet.css">
+	<meta name="keywords" content="Personal website,student,contact,about me,studies,Computer Science">
+	<meta name="Description" content="Main page with information about me and my experience with my contact">
+</head>
+
+<body>
+	<!-- Nav -->
+	<nav class="navbar navbar-expand-lg bg-black navbar-dark py-3">
+		<div class="container">
+			<a href="#" class="navbar-brand">Ioannis Panaritis</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<!--ms=auto means magrin start auto-->
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="myPassions.html">Passions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="CSProgram.html">Program</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="designLayout.html">Layout & Design</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="myWebsites.html">My Websites</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="websitesOnline.html">Websites Online</a>
+					</li>
+					<li class="nav-item">
+						<button class="btn btn-success btn-md " data-bs-toggle="modal"
+							data-bs-target="#contactMe">Contact me</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main>
+
+		<!-- about me -->
+		<section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+			<div class="container">
+				<div class="d-md-flex justify-content-between align-items-center">
+					<div class="col-sm-7 lead">
+						<h1><span class="text-warning">About Me</span></h1>
+						<p class=" my-4">
+						<p>My name is Ioannis Panaritis. I am 19 years old and I am the owner of this webpage.<br>
+							I am a student attending Champlain college in St-Lambert. In the year 2020, I enrolled
+							as a Health Science student. As the semesters went by, I began developing a passion for
+							Computer
+							Science.
+							After a tough two years in Health Science, I officially transferred to Computer Science
+							Technology.
+						</p>
+						<button class="btn btn-success btn-lg mt-3" data-bs-toggle="modal"
+							data-bs-target="#contactMe">Contact me</button>
+						<div class="pt-4">
+							<a href="https://twitter.com/" target="_blank"><i
+									class="bi bi-twitter text-light mx-1"></i></a>
+							<a href="https://www.facebook.com/" target="_blank"><i
+									class="bi bi-facebook text-light mx-1"></i></a>
+							<a href="https://ca.linkedin.com/" target="_blank"><i
+									class="bi bi-linkedin text-light mx-1"></i></a>
+							<a href="https://www.instagram.com/" target="_blank"><i
+									class="bi bi-instagram text-light mx-1"></i></a>
+						</div>
+					</div>
+					<img class="img-fluid d-none d-sm-block rounded-circle" src="pics/gradPicSmall.jpg"
+						alt="My graduation picture">
+				</div>
+			</div>
+		</section>
+		<!-- cards -->
+		<section class="p-5 ">
+			<div class="container">
+				<div class="row text-center g-4">
+					<div class="col-md">
+						<div class="card bg-dark text-light h-100">
+							<div class="card-body text-center">
+								<div class="h1">
+									<i class="bi bi-calendar-check text-info"></i>
+								</div>
+								<h3 class="card-title mb-3 text-warning">Punctual</h3>
+								<p class="card-text">
+									As a punctual developer, I understand the importance of meeting deadlines and
+									delivering
+									results on time. I am well-organized and efficient in my work,
+									and I take a disciplined approach to managing my time and tasks.
+
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card bg-dark text-light h-100">
+							<div class="card-body text-center">
+								<div class="h1">
+									<i class="bi bi-house-heart text-info"></i>
+								</div>
+								<h3 class="card-title mb-3 text text-warning">Passionate</h3>
+								<p class="card-text">
+									I am confident that my passion and expertise will enable me to
+									deliver exceptional results for your project. I am constantly striving
+									to improve my skills and stay up-to-date with the latest technologies and best
+									practices in the field.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card bg-dark text-light h-100">
+							<div class="card-body text-center">
+								<div class="h1">
+									<i class="bi bi-chat-dots text-info"></i>
+								</div>
+								<h3 class="card-title mb-3 text-warning">Communication</h3>
+
+								<p class="card-text">
+									As a developer, I believe that effective communication is a key priority for any
+									project. Clear and regular communication
+									ensures that everyone involved has a shared understanding of the project goals and
+									expectations,
+									and it helps to prevent misunderstandings and potential issues down the line.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- modal -->
+		<section>
+			<div class="modal fade" id="contactMe" tabindex="-1"  aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Fill out your information!</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p class="lead">Fill out this form and I will get back to you</p>
+							<form>
+								<div class="mb-3">
+									<label for="full-name" class="col-form-label">
+										Full Name:
+									</label>
+									<input type="text" class="form-control" id="full-name">
+								</div>
+								<div class="mb-3">
+									<label for="email" class="col-form-label">
+										Email:
+									</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<div class="mb-3">
+									<label for="phone" class="col-form-label">
+										Phone:
+									</label>
+									<input type="tel" class="form-control" id="phone">
+								</div>
+								<div class="mb-3">
+									<label for="communication" class="form-label">How would you like to speak with
+										me? (select one)</label>
+									<input class="form-control"  list="options" name="communication" id="communication">
+									<datalist id="options">
+										<option value="Online">
+										<option value="In-Person">
+									</datalist>
+								</div>
+								<div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" id="zoom" name="zoom" value="zoom">
+									<label class="form-check-label">Zoom</label>
+								</div>
+								<div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" id="teams" name="teams"
+										value="teams">
+									<label class="form-check-label">Teams</label>
+								</div>
+								<div class="mb-3">
+									<label for="startDate">Choose a date:</label>
+									<input type="date" class="form-control" id="startDate" >
+								</div>
+
+								<div class="mb-3">
+									<label for="comment">Specify your needs:</label>
+									<textarea class="form-control" rows="2" id="comment" name="text"></textarea>
+								</div>
+								<div class="form-check">
+									<input type="radio" class="form-check-input" id="radio1" name="optradio"
+										value="call">
+									<label class="form-check-label" for="radio1">Call me:</label>
+								</div>
+								<div class="form-check">
+									<input type="radio" class="form-check-input" id="radio2" name="optradio"
+										value="email">
+									<label class="form-check-label" for="radio1">Email me</label>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer class="bg-dark p-5 text-center text-white ">
+		<div class="container lead">
+			Ioannis Panaritis
+			<a class="text-decoration-none text-white p-5" href="mailto:i.panar@yahoo.com">i.panar@yahoo.com</a>
+			<a class="text-decoration-none text-white" href="tel:438-763-6898">438-763-6898</a>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+		</script>
+</body>
+
+</html>
+<!-- https://www.maciekjanicki.com/motion-language -->
